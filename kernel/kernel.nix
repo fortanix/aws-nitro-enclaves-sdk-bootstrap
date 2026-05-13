@@ -65,7 +65,7 @@ pkgs.stdenv.mkDerivation rec {
   };
 
   files = [
-    kern_config
+    kern_config ./enclaveos-config
   ];
 
   patches = [
